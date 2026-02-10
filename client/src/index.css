@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #FFD700; /* হিমু হলুদ */
+  --secondary-color: #333333; /* মিসির আলি ডার্ক */
+  --bg-color: #f4f4f4;
+  --text-color: #222;
+}
+
+body {
+  margin: 0;
+  font-family: 'Hind Siliguri', sans-serif; /* বাংলা ফন্ট */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* কার্ড ডিজাইন */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
